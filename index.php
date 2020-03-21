@@ -62,7 +62,11 @@
     </div>
 
     <div class="container">
-        <?php echo "This is a debug message."; ?>
+
+        <?php
+        $myVar = 10;
+
+        echo "This is a debug message."; ?>
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
